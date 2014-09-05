@@ -47,7 +47,7 @@
 		349CDEAA19B9C30D00E4F669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		349CDEAC19B9C30D00E4F669 /* DFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFViewController.h; sourceTree = "<group>"; };
 		349CDEAD19B9C30D00E4F669 /* DFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFViewController.m; sourceTree = "<group>"; };
-		349CDEAF19B9C30D00E4F669 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		349CDEAF19B9C30D00E4F669 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Parallax Effect/Images.xcassets"; sourceTree = "<group>"; };
 		349CDEB519B9C30D00E4F669 /* Parallax EffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parallax EffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		349CDEB619B9C30D00E4F669 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		349CDEBE19B9C30D00E4F669 /* Parallax EffectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parallax EffectTests-Info.plist"; sourceTree = "<group>"; };
@@ -83,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				349CDE9D19B9C30D00E4F669 /* Parallax Effect */,
+				349CDEAF19B9C30D00E4F669 /* Images.xcassets */,
+				349CDE9E19B9C30D00E4F669 /* Supporting Files */,
 				349CDEBC19B9C30D00E4F669 /* Parallax EffectTests */,
 				349CDE9619B9C30D00E4F669 /* Frameworks */,
 				349CDE9519B9C30D00E4F669 /* Products */,
@@ -117,8 +119,6 @@
 				349CDEA919B9C30D00E4F669 /* Main.storyboard */,
 				349CDEAC19B9C30D00E4F669 /* DFViewController.h */,
 				349CDEAD19B9C30D00E4F669 /* DFViewController.m */,
-				349CDEAF19B9C30D00E4F669 /* Images.xcassets */,
-				349CDE9E19B9C30D00E4F669 /* Supporting Files */,
 			);
 			path = "Parallax Effect";
 			sourceTree = "<group>";
@@ -132,6 +132,7 @@
 				349CDEA519B9C30D00E4F669 /* Parallax Effect-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = "Parallax Effect";
 			sourceTree = "<group>";
 		};
 		349CDEBC19B9C30D00E4F669 /* Parallax EffectTests */ = {
